@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: 'League Spartan' sans-serif;
+    font-size: 15px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url("bgdesktopbottom.svg");
+    background-image:url("bg-pattern-top-desktop.svg");
+}
+
+.container{
+    padding: 2rem;
+}
+.block-info-card .info .text{
+    margin:  1.5rem 0px;
+    color: hsla(300, 43%, 22%, 0.673);
+    font-weight: 700;
+}
+
+
+.block-info-card .info .title{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column!important;
+}
+
+.card-text .card{
+    
+    padding: 15px;
+    margin-top: 2rem;
+    margin: 10px;
+    background-color: hsl(300, 24%, 96%);
+    /* width: 80%; */
+    color: hsl(300, 43%, 22%);;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+}
+
+.card-text .card.last .col-6 {
+    background-color: blue;
+
+}
+
+.card-text .card.last{
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.card-text .card.last .text{
+    margin-left: 1rem;
+
+}
+
+.card-text .card.first .text{
+    margin-left: 1rem;
+
+}
+
+.card-text .card.second .text{
+    margin-left: 1rem;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .card-text .card{
+        margin: 1rem 0;
+    }
+
+
+    .card-text .card.first{
+        display: flex;
+        flex-direction: row !important;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .card-text .card.second{
+        display: flex;
+        flex-direction: row !important;
+        margin-left: 0rem;
+    }
+    .card-text .card.last{
+        display: flex;
+        flex-direction: row !important;
+        margin-left: 0rem;
+    }
+
+}
+
+.card-text .card.first{
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-text .card.second{
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 4rem;
+}
+
+.block-presentation{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-presentation .card{
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+    display: inline-block;
+    width: 320px;
+    color: white;
+}
+
+.block-presentation .card .icon-name .name .name-status{
+    color: rgb(196, 58, 116);
+    font-weight: bold;
+
+}
+.block-presentation .card.second{
+    margin: 0px 3rem;
+}
